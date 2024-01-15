@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contra el maltrato animal</title>
+
+    <!-- ====================================== Font cdn link ====================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- ====================================== ICONS ====================================== -->    
+    <script src="https://kit.fontawesome.com/7ed7563472.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+    <!-- ====================================== custom css file link ======================================  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon"  href="images/assets/logo_size.ico">
+
+
+</head>
+<body>
+ 
+
+<!--====================================== Header Section starts ======================================-->
+<header class="header">
+    <a href="#" class="logo">
+        <img src="images/assets/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">Inicio</a>
+        <a href="#about">Nosotros</a>
+        <a href="#menu">Eventos Proximos</a>
+        <a href="#review">ONG's</a>
+        <a href="#contact">contacto</a>   
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+</header>
+<!--====================================== Header Section ends ======================================-->
+
+<!--====================================== Home Section VIDEO starts ======================================-->
+<section class="home" id="home">
+ <div class="header-video">
+            <video src="images/assets/video.mp4" class="video" muted autoplay loop>
+            </video> 
+        <div class="header-overlay"></div>
+</div>
+</section>
+
+<!--====================================== Home Section ends ======================================-->
+
+<!--====================================== About Section starts ======================================-->
+<section class="about" id="about">
+    <h1 class="heading"> <span>A cerca de</span> Nosotros </h1>
+    <div class="row">
+        <div class="image">
+            <img src="images/no_maltrato.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>¿Quienes somos?</h3>
+            <p>Somos una fundación comprometida con la protección y el bienestar de los animales. Nuestra misión es luchar contra el maltrato animal y promover una convivencia respetuosa y armoniosa entre los seres humanos y los animales.<br><br>
+
+Nuestro trabajo se basa en tres pilares fundamentales: la educación, la intervención y la defensa. Creemos que la educación es la clave para prevenir el maltrato animal, por lo que nos esforzamos por enseñar a las personas sobre la importancia del respeto y la empatía hacia todas las formas de vida.<br><br>
+
+Intervenimos en situaciones donde los animales están en peligro, proporcionándoles refugio, atención médica y, finalmente, un hogar amoroso. Además, defendemos los derechos de los animales a través de la promoción de leyes y políticas que protejan su bienestar.<br><br>
+
+Nos apasiona lo que hacemos y creemos en un mundo donde todos los animales sean tratados con la dignidad y el respeto que merecen. Únete a nosotros en esta misión y ayúdanos a hacer del mundo un lugar mejor para todos los seres vivos.</p>
+            <div class="boton-modal_about"> 
+            <label for="btn-modal_about">Ver más</label>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- MODAL ABOUT -->
+<input type="checkbox" id="btn-modal_about">
+    <div class="container-modal_about">
+        <div class="content-modal_about">
+            <h2>¡Nuestros Objetivos!</h2>
+                    <p>Educación: Nuestro objetivo principal es educar al público sobre la importancia del bienestar animal y cómo cada individuo puede contribuir a prevenir el maltrato animal.</p>
+                    <p>Intervención: Nos esforzamos por intervenir y rescatar animales que están en situaciones de maltrato o negligencia, proporcionándoles un refugio seguro y atención médica.</p>
+                    <p>Adopción: Trabajamos incansablemente para encontrar hogares amorosos y permanentes para los animales que hemos rescatado.</p>
+
+                <div class="btn-cerrar_about">
+                    <label for="btn-modal_about">Cerrar</label>
+                </div>
+        </div>
+        <label for="btn-modal_about" class="cerrar-modal_about"></label>
+    </div>
+
+<!--====================================== About Section ends ======================================-->
+
+
+<!--====================================== Menu Section starts ======================================-->
+<section class="menu" id="menu">
+    <h1 class="heading"> Eventos <span> proximos</span> </h1>
+    <div class="box-container">
+        <div class="box-1 boton-modal1">
+            <h3 class="cocina">Marchas en contra del maltrato animal</h3>  
+            <label for="btn-modal1" class="fancybox">Ver más</label>
+        </div>
+        <div class="box-2 boton-modal2">
+            <h3>Educando sobre el respeto a los seres vivos</h3>
+           <label for="btn-modal2" class="fancybox">Ver más</label>
+        </div>
+        <div class="box-3 boton-modal3">
+            <h3>Denuncias de maltrato animal</h3>
+            <label for="btn-modal3" class="fancybox">Ver más</label>
+        </div>
+    </div>
+</section>
+
+<!-- Section MODAL 1 -->
+<input type="checkbox" id="btn-modal1">
+<div class="container-modal1">
+    <div class="content-modal1">
+        
+        <!-- Carrusel Section -->
+        <div class="container-fluid1">
+            <div class="row mt-4">
+                <!-- Img 1 -->
+                <div class="item col-sm-16 col-md-4 mb-3">
+                    <a href="images/evento1.jpg" class="fancybox" data-fancybox="gallery1">
+                        <img src="images/evento1.jpg" width="100%" height="70%">
+                    </a>
+                    <h2 align="center" >Corrida de toros</h2>
+                    </br>
+                    <p align="center">Marcha en contra de la corrida de toros
+                    </p>
+                 
+                </div>
+                <!-- Img 2 -->
+                <!--<div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="images/evento2.PNG" class="fancybox" data-fancybox="gallery1">
+                        <img src="images/evento2.PNG" width="100%" height="70%">
+                    </a>
+                    <h2 align="center" >Ni calladitas ni bonitas</h2>
+                    </br>
+                    <p align="center">MUAC en colaboración con el Centro de Artes, desarrollan talleres, charlas,stand up y musica.
+                    Plataformas: Zoom y FB Centro de Artes y Oficios Escuelita Emiliano Zapata.
+                    </p>
+
+                </div>-->
+                <!-- Img 3 -->
+                <!--<div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="images/evento3.PNG" class="fancybox" data-fancybox="gallery1">
+                        <img src="images/evento3.PNG" width="100%" height="70%">
+                    </a>
+                    <h2 align="center" >Feminicidio en México</h2>
+                    </br>
+                    <p align="center">Museo de la Mujer, Republica de Bolivia 17, Centro Histórico, Alcaldia Cuauhtémoc, Ciudad de México. Tel. 55 57959596.
+                    </p>
+
+                </div>-->
+                
+            </div>
+        </div>
+        <div class="btn-cerrar1">
+            <label for="btn-modal1">Cerrar</label>
+        </div>
+    </div>
+    <label for="btn-modal1" class="cerrar-modal1"></label>
+</div>
+
+<!-- Section MODAL 2 -->
+<input type="checkbox" id="btn-modal2">
+<div class="container-modal2">
+    <div class="content-modal2">
+        
+        <!-- Carrusel Section -->
+        <div class="container-fluid2">
+            <div class="row mt-4">
+
+                 <!-- Img 1 -->
+                <!--<div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="images/evento_drogas.PNG" class="fancybox" data-fancybox="gallery2">
+                        <img src="images/evento_drogas.PNG" width="100%" height="70%">
+                    </a>
+                    <h2 align="center" >Webinar Lucha contra Drogas</h2>
+                    </br>
+                    <p align="center">Lunes 28 de Junio del 2021, 10:00 am. Registro: https:// zoom.us /webinar /register /WN_Ax0ssAlfQ6WWYAlfLsazzg
+                    </p>
+                </div>-->
+
+                  <!-- Img 2 -->
+                <!--<div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="images/evento_drogas2.PNG" class="fancybox" data-fancybox="gallery2">
+                        <img src="images/evento_drogas2.PNG" width="100%" height="70%">
+                    </a>
+                    <h2 align="center" >Webinar Daño por Alcohol</h2>
+                    </br>
+                    <p align="center">Martes, 18 de Junio del 2022, 1:00 pm
+                    REGISTRO: https://paho-org.zoom.us /webinar /register /WN_othYSDqJTYWqbAWDstjD6A
+                    </p>
+                </div>-->
+
+                  <!-- Img 3 -->
+                <!--<div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="images/evento_drogas3.PNG" class="fancybox" data-fancybox="gallery2">
+                        <img src="images/evento_drogas3.PNG" width="100%" height="70%">
+                    </a>
+                    <h2 align="center" >Tabaco: Una Amenaza.</h2>
+                    </br>
+                    <p align="center">Presentar el impacto nocivo de la industria del tabaco en el medio ambiente, discutir las estrategias de "greenwashing" utilizadas por la Industria del Tabaco.
+                    </p>
+                </div>-->
+
+            </div>
+        </div>
+        <div class="btn-cerrar2">
+            <label for="btn-modal2">Cerrar</label>
+        </div>
+    </div>
+    <label for="btn-modal2" class="cerrar-modal2"></label>
+</div>
+
+<!-- Section MODAL 3 -->
+<input type="checkbox" id="btn-modal3">
+<div class="container-modal3">
+    <div class="content-modal3">
+        
+        <!-- Carrusel Section -->
+        <div class="container-fluid3">
+            <div class="row mt-4">
+
+                 <!-- Img 1 -->
+                <div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="images/evento_ninos.PNG" class="fancybox" data-fancybox="gallery3">
+                        <img src="images/evento_ninos.PNG" width="120%" height="60%">
+                    </a>
+                     <h2 align="center" >Educando sin Violencia</h2>
+                    </br>
+                    <p align="center">Golpear no es respetar. Gritar no es educar. Seguir Leyendo en el enlace: https:// www.unicef.org /mexico/ buentrato
+                    </p>
+                 
+                </div>
+
+                 <!-- Img 2 -->
+                <div class="item col-sm-6 col-md-4 mb-3">
+                    <a href="images/evento_ninos1.PNG" class="fancybox" data-fancybox="gallery3">
+                        <img src="images/evento_ninos1.PNG" width="100%" height="60%">
+                    </a>
+                     <h2 align="center" >Derechos de niñas, niños.</h2>
+                    </br>
+                    <p align="center">La Ley General de los Derechos de las Niñas, Niños y Adolescentes. Revisar: https://www.cndh.org.mx/
+                    </p>
+                </div>
+ 
+            </div>
+        </div>
+        <div class="btn-cerrar3">
+            <label for="btn-modal3">Cerrar</label>
+        </div>
+    </div>
+    <label for="btn-modal3" class="cerrar-modal3"></label>
+</div>
+
+
+<!--====================================== Review Section starts ======================================-->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> ONG's  <span>en México</span> </h1>
+
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/assets/quote-img.png" alt="" class="quote">
+            <p>APASDEM</p>
+            <p>Esta organización nació en 2006 y está conformada por 66 grupos protectores de todo el país. Su objetivo es lograr acuerdos con las autoridades y con la sociedad en general para poner fin a la violencia hacia los animales</p>
+            <img src="images/Captura3.PNG" class="user" alt="">
+            <h3>Agrupaciones por los Animales de México, A.C.</h3>
+             <a class="btn"href="https://www.apasdem.org.mx/">SEGUIR
+             </a> 
+        </div>
+
+        <div class="box">
+            <img src="images/assets/quote-img.png" alt="" class="quote">
+            <p>Protectora Nacional de Animales</p>
+            <p>Esta asociación brinda albergue temporal a los animales sin hogar, mientras son reubicados con sus nuevos dueños. Buscan erradicar el abuso, maltrato y abandono hacia los animales</p></br>
+            <img src="images/Captura.PNG" class="user" alt="">
+            <h3>Protectora Nacional de Animales</h3>
+            <a class="btn"href="https://pnamexico.com/" >SEGUIR
+             </a>
+        </div>
+        
+        <div class="box">
+            <img src="images/assets/quote-img.png" alt="" class="quote">
+            <p>INPPA</p>
+            <p>Esta es una de las principales instituciones que protegen a los animales en México. Trabajan de manera conjunta con la Comisión Nacional de Protección Animal (CNPA) y el Colegio de Veterinarios de México (CVM) para asegurar que los animales reciban el trato adecuado</p>
+            </br></br>
+            </br>
+            <img src="images/Captura2.PNG" class="user" alt="">
+            <h3>Instituto Nacional de Protección Animal</h3>
+            <a class="btn"href="https://www.facebook.com/institutomunicipaldeproteccionybienestaranimal/" >SEGUIR
+             </a>
+        </div>
+
+    </div>
+</section>
+
+<!--====================================== Review Section ends ======================================-->
+
+
+<!--====================================== Contact section starts ======================================-->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>Unete</span></h1>
+
+    <div class="row">
+
+       <img src="images/img_contacto.PNG" width="650px" height="600px">
+        <form action=""> 
+            <h3>TÚ, YO, TODOS SOMOS LA CAUSA</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="nombre">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="correo">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="numero">
+            </div>
+            <input type="submit" value="Contactar ahora" class="btn">
+        </form>
+
+    </div>
+</section>
+
+<!-- ====================================== Contact Section ends ====================================== -->
+
+<!-- ====================================== Blogs Section starts ====================================== -->
+
+<section class="blogs" id="blogs">
+    <h1 class="heading"> Unidos <span>Salvamos más</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="content">
+    <!-- https://developers.facebook.com/docs/plugins/page-plugin -->
+    <center><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com/igualdadanimalmexico%2F&tabs=timeline&width=500&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></center>
+        </div>
+    </div>
+</section>
+
+
+<!-- ====================================== Blogs Section ends ====================================== -->
+
+<!-- ====================================== Footer Section starts ======================================  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="https://www.facebook.com/frecuenciaanimal1/" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+        <a href="#">inicio</a>
+        <a href="#about">nosotros</a>
+        <a href="#menu">Eventos Proximos</a>
+        <a href="#review">comentarios</a>
+        <a href="#contact">contacto</a>
+    </div>
+
+    <div class="credit">created by <span>Axel Najera Coronel</span> | all rights reserved</div>
+</section>
+
+<!-- ====================================== Footer Section ends ====================================== -->
+
+<!-- ====================================== Custom js File links starts ======================================  -->
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+
+<!-- Messenger Plugin de chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin de chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "110010321744652");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+
+<!-- ====================================== Custom js File links ends ======================================  -->
+
+</body>
+</html>
