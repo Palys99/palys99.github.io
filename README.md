@@ -1,1 +1,0 @@
-# palys99.github.io
